@@ -1,4 +1,14 @@
 site_name: Ray Tracing on Processing
+
 theme: readthedocs
+
 nav:
   - Home: index.md
+
+markdown_extensions:
+  - pymdownx.b64:
+      base_path: "docs"
+  - pymdownx.arithmatex
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
